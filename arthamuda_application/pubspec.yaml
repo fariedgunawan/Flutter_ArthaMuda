@@ -1,0 +1,28 @@
+name: arthamuda_application
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  http: ^0.13.5
+  intl: ^0.18.1
+  shared_preferences: ^2.2.2
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/bg-img.png
+    - assets/outcome.png
+    - assets/income.png
+    - assets/stats.png
